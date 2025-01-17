@@ -10,6 +10,7 @@
   <properties>
     <hibernate-version>5.6.15.Final</hibernate-version>
     <mysql-version>8.0.33</mysql-version>
+    <lombok-version>1.18.36</lombok-version>
   </properties>
   <dependencies>
     <dependency>
@@ -22,6 +23,13 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql-version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombok-version}</version>
+
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>restaurant</finalName>
